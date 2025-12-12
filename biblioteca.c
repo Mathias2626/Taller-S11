@@ -192,3 +192,4 @@ void eliminarLibro(Libro libros[], int *total) {
     }
     printf("Libro no encontrado.\n\n");
 }
+
