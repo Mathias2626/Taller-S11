@@ -6,7 +6,7 @@ int main() {
     Libro libros[MAX_LIBROS];
     int total = 0;
     int opcion;
-    printf("Sistema de biblioteca\n"); 
+    printf("Biblioteca\n"); 
     do {
         printf("\nMenu\n");
         printf("1)Agregar libro\n");
@@ -15,7 +15,7 @@ int main() {
         printf("4)Cambiar estado\n");
         printf("5)Eliminar libro\n");
         printf("6)Salir\n");
-        printf("Seleccione unaopción:");
+        printf("Seleccione una opción:");
         scanf("%d", &opcion);
         switch(opcion) {
             case 1: agregarLibro(libros, &total);
@@ -36,4 +36,5 @@ int main() {
     
     return 0;
 }
+
 
