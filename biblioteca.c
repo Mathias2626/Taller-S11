@@ -3,7 +3,7 @@
 #include "biblioteca.h"
 
 void limpiarBuffer() {
-    while (getchar() != '\n');
+    while (getchar();
 }
 
 int idExiste(Libro libros[], int total, int id) {
@@ -192,4 +192,5 @@ void eliminarLibro(Libro libros[], int *total) {
     }
     printf("Libro no encontrado.\n\n");
 }
+
 
