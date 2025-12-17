@@ -181,6 +181,9 @@ void eliminarLibro(Libro libros[], int *total) {
     
     for (int i = 0; i < *total; i++) {
         if (libros[i].id == id) {
+            if (strcmp(libros[i].estado, "Prestado")==0{
+                printf("No se puede eliminar un libro que esta prestado.\n");
+                return;}
             // Mover libros
             for (int j = i; j < *total - 1; j++) {
                 libros[j] = libros[j + 1];
@@ -192,5 +195,6 @@ void eliminarLibro(Libro libros[], int *total) {
     }
     printf("Libro no encontrado.\n\n");
 }
+
 
 
